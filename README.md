@@ -91,7 +91,7 @@ then you can do it something like this:
 sudo wget -P /usr/local/bin raw.githubusercontent.com/newbthenewbd/cod/main/cod
 sudo chmod +x /usr/local/bin/cod
 ```
-You're a CLI person. You can do it.
+You're a cod person. You can do it.
 
 
 # License?
