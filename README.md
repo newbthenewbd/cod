@@ -33,6 +33,9 @@ runs **ls -Al** in it.
 **cod** is intended for humans, and not further scripts. Get your scripts 
 together, it's not that hard.
 
+But if even the human is tired of **cod** constantly printing paths, the 
+environment variable **$COD_NONAME** may be set to *1* in order to silence it.
+
 
 # no pix no clix?
 

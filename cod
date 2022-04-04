@@ -23,15 +23,21 @@
 #SOFTWARE.
 
 if [ "$#" = 0 ]; then
-	echo "$(pwd):"
+	if ! [ "${COD_NONAME}" = 1 ]; then
+		echo "$(pwd):"
+	fi
 	ls -Al
 fi
 for arg in "$@"; do
 	if [ -f "${arg}" ]; then
-		echo "${arg}:"
+		if ! [ "${COD_NONAME}" = 1 ]; then
+			echo "${arg}:"
+		fi
 		cat -- "${arg}"
 	elif [ -d "${arg}" ]; then
-		echo "${arg}:"
+		if ! [ "${COD_NONAME}" = 1 ]; then
+			echo "${arg}:"
+		fi
 		ls -Al -- "${arg}"
 	fi
 done
