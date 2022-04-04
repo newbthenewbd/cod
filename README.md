@@ -34,7 +34,7 @@ runs **ls -Al** in it.
 together, it's not that hard.
 
 But if even the human is tired of **cod** constantly printing paths, the 
-environment variable **$COD_NONAME** may be set to *1* in order to silence it.
+environment variable **$COD_NONAME** may be set to `1` in order to silence it.
 
 
 # no pix no clix?
