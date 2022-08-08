@@ -26,7 +26,7 @@ if [ "$#" = 0 ]; then
 	if ! [ "${COD_NONAME}" = 1 ]; then
 		echo "$(pwd):"
 	fi
-	ls -Al
+	ls -AlH
 fi
 for arg in "$@"; do
 	if [ -f "${arg}" ]; then
@@ -38,6 +38,6 @@ for arg in "$@"; do
 		if ! [ "${COD_NONAME}" = 1 ]; then
 			echo "${arg}:"
 		fi
-		ls -Al -- "${arg}"
+		ls -AlH -- "${arg}"
 	fi
 done

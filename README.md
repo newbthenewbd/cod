@@ -23,12 +23,12 @@ prints the file with **cat**.
 
 If an argument evaluates to a directory, **cod** prints the path to the 
 directory, then prints the names of its contents, as well as some other useful 
-stuff - using **ls -Al**, because it's better than **dir**, and because fish 
+stuff - using **ls -AlH**, because it's better than **dir**, and because fish 
 aluminum poisoning is a problem, maybe much smaller than many other problems, 
 but one nevertheless.
 
 If there are no arguments, **cod** prints the path to the current directory and 
-runs **ls -Al** in it.
+runs **ls -AlH** in it.
 
 **cod** is intended for humans, and not further scripts. Get your scripts 
 together, it's not that hard.
